@@ -1,5 +1,5 @@
 export const getCountries = async () => {
-    const apiKey = process.env.PUBLIC_API_KEY;
+    const apiKey = import.meta.env.PUBLIC_API_KEY;
     if (!apiKey) return
 
     const response = await fetch(

@@ -4,7 +4,7 @@ WORKDIR /
 
 COPY . .
 
-RUN BUN INSTALL
+RUN bun install
 
 EXPOSE 3000
 
